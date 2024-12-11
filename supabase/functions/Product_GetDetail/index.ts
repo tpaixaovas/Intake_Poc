@@ -32,6 +32,7 @@ Deno.serve(async (_req) => {
   }
 
   if (data) {
+    
     // Calculate the discounted price for each product
     const updatedData = data.map((product: any) => ({
       ...product,
